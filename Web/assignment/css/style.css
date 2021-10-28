@@ -1,22 +1,29 @@
-h1 {
-  text-align: center;
-  margin-top: 75px;
-  margin-bottom: 75px;
+#serif {
+  font-family: "Times New Roman", "Times", serif;
+  font-size: 100px;
 }
 
-.movie {
-  background-color: #eee;
-  border-radius: 20px;
-  margin-bottom: 50px;
-  padding: 50px;
+#sans-serif {
+  font-family: "arial", sans-serif;
+  font-size: 100px;
 }
 
-.movie .title {
-  text-align: center;
+#monospace {
+  font-family: "courier", "courier New", monospace;
+  font-size: 100px;
 }
 
-.movie .poster {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#cursive {
+  font-family: "Comic Sans MS", "monotype Corsiva", cursive;
+  font-size: 100px;
+}
+
+#fantasy {
+  font-family: "impact", "Haettenschweiler", Fantasy;
+  font-size: 100px;
+}
+
+#google {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 100px;
 }
