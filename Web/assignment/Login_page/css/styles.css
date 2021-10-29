@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #1bbc9b;
+}
+/*
+모든 태그는 기본적으로 설정되어 있는 속성들이 있다는 걸 기억해주세요. 예를 들어서 <input> 태그에는 기본적으로 테두리가 있기 때문에 테두리를 직접 없애줘야겠죠?
+.login-form의 배경색은 #EEEFF1, submit-btn의 배경색은 #1BBC9B, <a>의 폰트색은 #9B9B9B입니다.
+초록 선은 padding을 뜻하고, 빨간 선은 margin을 뜻합니다.
+*/
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  border: none;
+  padding: 20px;
+  background-color: #eeeff1;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-field {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+}
+
+.submit-btn {
+  font-size: 14px;
+  color: white;
+  background-color: #1bbc9b;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+  width: 100%;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: #9b9b9b;
+}
