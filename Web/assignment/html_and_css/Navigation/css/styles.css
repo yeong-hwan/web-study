@@ -12,12 +12,29 @@ body {
   height: 60px;
 }
 
+.menu {
+  float: right;
+  margin: 10px;
+  color: black;
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.menu:hover {
+  float: right;
+  margin: 10px;
+  color: black;
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 40px;
+  background-color: #eeeeee;
+}
+
 #logo {
   font-family: serif;
   float: left;
-
-  /* 이건 지우세요 */
-  background-color: orange;
+  line-height: 60px;
+  vertical-align: middle;
 }
 
 .hero-header {
@@ -26,11 +43,13 @@ body {
   background-position: center center;
   height: 670px;
   text-align: center;
+  line-height: 670px;
 }
 
 .hero-header .info {
-  /* 이건 지우세요 */
-  background-color: orange;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 .hero-header .info h1 {
