@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  min-width: 768px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* side navbar */
+
+#side-navbar {
+  background-color: black;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+}
+
+#logo {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 136px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+ul {
+  padding-left: 22px;
+  color: white;
+  list-style-type: none;
+  font-weight: 200;
+}
+
+li {
+  margin-bottom: 30px;
+}
+/* main */
+#icon {
+  margin: 55px auto;
+  text-align: center;
+}
+
+#main {
+  margin-left: 250px;
+}
+
+#main .hero-header {
+  text-align: center;
+  background-image: url("../images/hero_header.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  height: 885px;
+  line-height: 885px;
+}
+
+#main .info {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+#main h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 38px;
+}
+
+#main a {
+  padding: 10px 40px;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
