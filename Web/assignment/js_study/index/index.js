@@ -1,1 +1,5 @@
-console.log('hello codeit')
+function greetings() {
+	console.log('hello')
+};
+
+greetings();
