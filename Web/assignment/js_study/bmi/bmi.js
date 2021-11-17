@@ -1,6 +1,6 @@
 // 여기에 코드를 입력해 주세요.
 function bmiCalculator(name, weight, tall) {
-  console.log(name + '님의 체질량지수는' + weight / (tall * tall / 10000) + '입니다.')
+  console.log(name + '님의 체질량지수는 ' + weight / (tall * tall / 10000) + '입니다.')
 };
 
 // 테스트
