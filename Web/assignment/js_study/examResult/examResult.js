@@ -19,7 +19,14 @@ function passChecker(scoreObject) {
   for (lecture in scoreObject) {
     sum += scoreObject[lecture];
   }
+
+  if (sum >= 60) {
+    console.log('축하합니다! 합격입니다!')
+  } else {
+    console.log('아쉽지만 불합격입니다...')
+  }
 };
+
 
 passChecker(hyesoonScore);
 passChecker(minsoonScore);
