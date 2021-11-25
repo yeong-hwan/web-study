@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <img id="logo" src="images/logo.png" />
+    <div id="menu">
+      <a id="Home">Home</a>
+      <a id="Seoul">Seoul</a>
+      <a id="Tokyo">Tokyo</a>
+      <a id="Paris">Paris</a>
+    </div>
+    <img id="photo" src="images/home.png" width="90%" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $("#Home").on("click", clickHome);
+      $("#Seoul").on("click", clickSeoul);
+      $("#Tokyo").on("click", clickTokyo);
+      $("#Paris").on("click", clickParis);
+      $("#photo").on("mouseenter", mouseEnterPhoto);
+      $("#photo").on("mouseleave", mouseLeavePhoto);
+
+      $(document).on("keydown", processKeyEvent);
+      // 사진을 바꿔주는 함수
+      function clickHome() {
+        $("#photo").attr("src", "images/home.png");
+        $("#Seoul").css("font-weight", "normal");
+        $("#Tokyo").css("font-weight", "normal");
+        $("#Home").css("font-weight", "bold");
+        $("#Paris").css("font-weight", "normal");
+      }
+      function clickSeoul() {
+        $("#photo").attr("src", "images/seoul.png");
+        $("#Seoul").css("font-weight", "bold");
+        $("#Tokyo").css("font-weight", "normal");
+        $("#Home").css("font-weight", "normal");
+        $("#Paris").css("font-weight", "normal");
+      }
+      function clickTokyo() {
+        $("#photo").attr("src", "images/tokyo.png");
+        $("#Seoul").css("font-weight", "normal");
+        $("#Tokyo").css("font-weight", "bold");
+        $("#Home").css("font-weight", "normal");
+        $("#Paris").css("font-weight", "normal");
+      }
+      function clickParis() {
+        $("#photo").attr("src", "images/paris.png");
+        $("#Seoul").css("font-weight", "normal");
+        $("#Tokyo").css("font-weight", "normal");
+        $("#Home").css("font-weight", "normal");
+        $("#Paris").css("font-weight", "bold");
+      }
+      // 사진에 그림자
+      function mouseEnterPhoto() {
+        $("#photo").css("box-shadow", "5px 10px");
+      }
+      function mouseLeavePhoto() {
+        $("#photo").css("box-shadow", "none");
+      }
+      // 키보드 이벤트 핸들링
+      function processKeyEvent(event) {
+        if (event["key"] === "1") {
+          clickHome();
+        } else if (event["key"] === "2") {
+          clickSeoul();
+        } else if (event["key"] === "3") {
+          clickTokyo();
+        } else if (event["key"] === "4") {
+          clickParis();
+        }
+      }
+    </script>
+  </body>
+</html>
