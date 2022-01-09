@@ -29,3 +29,33 @@ p {
 }
 
 /* ▼ WHERE YOUR CODE BEGINS */
+.card-user {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card-content {
+  float: left;
+}
+
+.card-content h1 {
+  margin-bottom: 4px;
+}
+
+.card-content strong {
+  margin-bottom: 12px;
+  display: block;
+}
+
+.card::after {
+  clear: left;
+  display: block;
+  content: "";
+}
