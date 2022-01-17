@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400px;
+	src: url(경로)
+	src: url('./assets/fonts/') format('embedded-opentype'), /* IE6-IE8 */
+	  	 url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+			 url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	     url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+} 

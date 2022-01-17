@@ -3,3 +3,139 @@
 }
 
 /* ▼ WHERE YOUR CODE BEGINS */
+* {
+  font-family: "Poppins";
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  width: 840px;
+  height: 248px;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.card-image {
+  position: relative;
+  background-image: url(./assets/img-house.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 6px;
+  background-position: center center;
+  display: block;
+  margin-right: 24px;
+}
+
+.card-image .like-button {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-image: url(./assets/icon-favorite.svg);
+  width: 36px;
+  height: 36px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.plus-badge {
+  display: inline-block;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #92174d;
+  font-size: 14px;
+  line-height: 1.428571428571429;
+  font-style: normal;
+  padding: 1px 8px;
+  text-transform: uppercase;
+  margin-right: 6px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.property-type span {
+  color: #7d858f;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.property-rate {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.property-rate strong {
+  font-weight: 400;
+  color: #151b26;
+}
+
+.property-rate span {
+  color: #7d858f;
+}
+
+.property-rate::before {
+  position: relative;
+  top: 2px;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(./assets/icon-star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #151b26;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.property-detail {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #7d858f;
+}
+
+.sr-only {
+  position: absolute;
+  z-index: -100;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.property-detail dd span::after {
+  content: "• ";
+  margin: 0px 8px;
+}
+
+.property-detail dd span:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+.property-detail div:first-child {
+  margin-bottom: 8px;
+}
+
+.card-content {
+  flex-grow: 1;
+}
