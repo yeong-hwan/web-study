@@ -9,5 +9,13 @@ function checker() {
     }
   }
 }
+function removeWord() {
+  const word = document.querySelector(`[data-word="${input.value}"]`)
+  if (word) {
+    word.remove();
+    checker();
+  }
+  input.value = '';
+}
 
-// 여기에 코드를 작성해 주세요.
+input.addEventListener('change', removeWord);
