@@ -154,6 +154,17 @@
 }
 
 @media screen and (min-width:481px) and (max-width:800px) {
+  .container {
+    width: 450px;
+  }
+
+  
+  @keyframes text-slide {
+  to {
+    transform: translate(0px);
+    }
+  }
+
   .nav-bar {
     list-style: none;
     display: flex;
@@ -179,7 +190,6 @@
   
 
   .image-container  {
-    width: 450px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -190,6 +200,16 @@
 }
 
 @media screen and (max-width:480px) {
+  .container {
+    width: 250px;
+  }
+
+  @keyframes text-slide {
+    to {
+      transform: translate(0px);
+    }  
+  }
+
   .nav-bar {
     list-style: none;
     display: flex;
@@ -206,7 +226,6 @@
   }
 
   .product {
-    width: 200px;
     height: 200px;
     border: solid 1px black;
     margin-bottom: 20px;
