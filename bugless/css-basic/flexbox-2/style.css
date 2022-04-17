@@ -1,11 +1,12 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 body {
   font-family: "Noto Sans KR", sans-serif;
   letter-spacing: -0.02em;
+}
+strong {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb3b9;
+  line-height: 1.4285714286;
 }
 
 h1 {
@@ -15,11 +16,9 @@ h1 {
   line-height: 1.25;
 }
 
-strong {
-  font-size: 14px;
-  font-weight: 400;
-  color: #afb3b9;
-  line-height: 1.4285714286;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 p {
@@ -48,8 +47,6 @@ p {
   display: block;
   margin-bottom: 12px;
 }
-
-/* ▼ WHERE YOUR CODE BEGINS */
 
 .card {
   display: flex;
