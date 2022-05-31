@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript</title>
+    <style>
+      body {
+        font-family: Consolas, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var theArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+      modifyArray(theArray[3]);
+      document.write(theArray.join(" "));
+      function modifyArray(i) {
+        document.writeln(i);
+        i = 11;
+        document.writeln(i);
+        document.writeln("hello");
+      }
+    </script>
+  </body>
+</html>

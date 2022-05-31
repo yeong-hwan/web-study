@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title class="title">E-commerce</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="anim">Welcome to YeongHwan Commerce</h1>
+      <ul class="nav-bar">
+        <li>
+          <a class="redirect-btn" id="page-now" href="#">Main page</a>
+        </li>
+        <li>
+          <a class="redirect-btn" href="login.html">Login</a>
+        </li>
+        <li>
+          <a class="redirect-btn" href="signup.html">Signup</a>
+        </li>
+      </ul>
+      <div class="line"></div>
+      <div class="Aside">
+        <aside>
+            <div class="category">
+                <label for="filter">Category filter:</label>
+                <select id="filter">
+                    <option selected>All</option>
+                    <option>Bag</option>
+                    <option>Sneakers</option>
+                    <option>Accessories</option>
+                </select>
+            </div>
+            <div class="keyword">
+                <label>Keyword filter: <input name="search" type="text"/></label>
+            </div>
+            <div>
+                <button id="filterButton">search</button>
+            </div>
+        </aside>
+      <div class="line"></div>
+      <div class="product-list">
+        <h2>Product list</h2>
+        <div class="image-container">
+          <a href="#" class="product">
+            <img
+              class="product-image lotate"
+              src="./images/beige_bag.jpg"
+              width="100px"
+            />
+            <button class="openBtn1">more info</button>
+            <div class="modal1 hidden">
+              <div class="bg"></div>
+              <div class="modalBox">
+                <p>price: 500$ <br />description: gorgeous beige bag</p>
+                <button class="closeBtn1">✖</button>
+              </div>
+            </div>
+            <div class="product-name">Beige Bag</div>
+          </a>
+
+          <a href="#" class="product">
+            <img
+              class="product-image zoom"
+              src="./images/sneakers.jpg"
+              width="100px"
+            />
+            <button class="openBtn2">more info</button>
+            <div class="modal2 hidden">
+              <div class="bg"></div>
+              <div class="modalBox">
+                <p>price: 100$ <br />description: cool sneakers</p>
+                <button class="closeBtn2">✖</button>
+              </div>
+            </div>
+            <div class="product-name">Sneakers</div>
+          </a>
+
+          <a href="#" class="product">
+            <img
+              class="product-image"
+              src="./images/sunglasses.jpg"
+              width="100px"
+            />
+            <button class="openBtn3">more info</button>
+            <div class="modal3 hidden">
+              <div class="bg"></div>
+              <div class="modalBox">
+                <p>price: 50$ <br />description: UV block sunglasses</p>
+                <button class="closeBtn3">✖</button>
+              </div>
+            </div>
+            <div class="product-name">sunglasses</div>
+          </a>
+
+          <a href="#" class="product">
+            <img
+              class="product-image"
+              src="./images/fedora_hat.jpg"
+              width="100px"
+            />
+            <button class="openBtn4">more info</button>
+            <div class="modal4 hidden">
+              <div class="bg"></div>
+              <div class="modalBox">
+                <p>price: 500$ <br />description: Fedora made by felt</p>
+                <button class="closeBtn4">✖</button>
+              </div>
+            </div>
+            <div class="product-name">Fedora</div>
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="description-container">
+        <h2 class="description">Description</h2>
+        <div class="description-line"></div>
+        <p class="description-content">
+          Fashion miscellaneous goods resell site. Fashion miscellaneous goods
+          resell site. Fashion miscellaneous goods resell site. Fashion
+          miscellaneous goods resell site. Fashion miscellaneous goods resell
+          site. Fashion miscellaneous goods resell site. Fashion miscellaneous
+          goods resell site.
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

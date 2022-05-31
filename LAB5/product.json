@@ -1,0 +1,15 @@
+
+[
+  {
+      "type": "Bag", "name": "gucci bloom",  "price": "145000", "img": "floral_gucci.png"
+  },
+  {
+      "type": "Shoes", "name": "byredo latulipe", "price": "240000", "img": "floral_byredo.png"
+  },
+  {
+      "type": "Accessories", "name": "kenzo flower by kenzo", "price": "72000", "img": "floral_kenzo.png"
+  },
+  {
+      "type": "Accessories", "name": "kiehl's original musk", "price": "75000", "img": "musk_kiehl's.jpeg"
+  }
+]
