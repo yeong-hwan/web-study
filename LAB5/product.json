@@ -1,7 +1,7 @@
 
 [
   {
-      "type": "Bag", "name": "gucci bloom",  "price": "145000", "img": "floral_gucci.png"
+      "type": "Bag", "name": "Beige bag",  "price": "145000", "img": "floral_gucci.png"
   },
   {
       "type": "Shoes", "name": "byredo latulipe", "price": "240000", "img": "floral_byredo.png"
