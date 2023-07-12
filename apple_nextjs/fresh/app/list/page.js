@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Image from "next/image";
+import imageSet from "/public/next.svg";
 
 export default function List() {
   let goods = ["Tomatoes", "Pasta", "Coconut"];
@@ -9,6 +10,7 @@ export default function List() {
       {goods.map((a, i) => {
         return (
           <div className="food" key={i}>
+            <Image src={imageSet} className="food-img" />
             <h4>{a} $40</h4>
           </div>
         );
