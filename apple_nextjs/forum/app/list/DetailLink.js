@@ -12,7 +12,7 @@ export default function DetailLink() {
         // router.prefetch("/");
       }}
     >
-      Button
+      {/* Button */}
     </button>
   );
 }
